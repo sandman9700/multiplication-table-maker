@@ -1,0 +1,77 @@
+
+#input-UI {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#input {
+    padding: 8px;
+    font-size: 16px;
+    background: #979797;
+    color: #ececec;
+}
+
+:root {
+    --color-1: #ffd460;
+    --color-2: #f07b3f;
+    --color-3: #ea5455;
+    --color-4: #2d4059;
+  }
+  
+  body {
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-1) 25%, var(--color-2) 25%, var(--color-2) 50%, var(--color-3) 50%, var(--color-3) 75%, var(--color-4) 75%, var(--color-4) 100%);
+  }
+  
+  table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+  }
+
+  table {
+    overflow: scroll;
+    margin-top: 25px;
+  }
+
+  h1 {
+    color: #979797;
+    -webkit-text-stroke: 2px black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  td {
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+    background-color: #979797;
+  }
+  
+  td:hover {
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: crimson;
+  }
+  
+  .square {
+    font-weight: bold;
+  }
+  
+  th {
+    min-width: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    min-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+  }
+
+  
