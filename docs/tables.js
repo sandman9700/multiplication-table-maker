@@ -2,7 +2,7 @@
 // - Make headders sticky
 // - Generate CSS
 
-
+document.onload(document.getElementById("input").focus)
 console.log("javascript working");
 
 document.addEventListener('DOMContentLoaded', function() {
