@@ -60,8 +60,17 @@
   
   .square {
     font-weight: bold;
+    color: crimson;
   }
-  
+
+  .square:hover {
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    background-color: black;
+  }
   th {
     min-width: 50px;
     position: sticky;
