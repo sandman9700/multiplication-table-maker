@@ -46,9 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function calculateAndPushToCell (cell, row, col) {
       var multiplied = row * col;
       cell.textContent = multiplied;
-      if (row == col){
-      	cell.classlist.add("square");
-      }
+     // if (row == col){
+      //	cell.classlist.add("square");
+      //}
     }
 
     function getInput () {  // read user's input value
